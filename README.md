@@ -50,7 +50,7 @@ Adicione os hosts de trabalho ao Swarm:
 
 
 # Uso:
-
+ ```bash
 > Para iniciar um container, use o comando docker run.
 
 > Para gerenciar containers, use o comando docker ps.
@@ -58,3 +58,4 @@ Adicione os hosts de trabalho ao Swarm:
 >  Para escalar um aplicativo, use o comando docker service create.
 
 > Para visualizar logs de containers, use o comando docker logs.
+```
