@@ -33,26 +33,25 @@ Uma rede privada para comunicação entre os hosts
 Instalação:
 
 Clone o repositório GitHub:
-´´´bash
+
 git clone git@github.com:MarcosRepulho/Docker-Swarm.git
-´´´
+
 Acesse o diretório do projeto:
-´´´bash
+
 cd Docker-Swarm
-´´´
+
 Inicie o Swarm:
-´´´bash
+
 docker swarm init
-´´´
+
 Adicione os hosts de trabalho ao Swarm:
-´´´bash
+
 docker swarm join --token <token-de-trabalho> <endereço-do-host-de-trabalho>
-´´´
+
 
 Uso:
-´´´bash
+
 Para iniciar um container, use o comando docker run.
 Para gerenciar containers, use o comando docker ps.
 Para escalar um aplicativo, use o comando docker service create.
 Para visualizar logs de containers, use o comando docker logs.
-´´´
