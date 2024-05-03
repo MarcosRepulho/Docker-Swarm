@@ -1,4 +1,4 @@
-# Este repositório GitHub contém um projeto Docker Swarm desenvolvido por Marcos Repulho. O Docker Swarm é uma ferramenta de orquestração de containers que permite gerenciar e escalar aplicativos em containers em vários hosts.
+#  O Docker Swarm é uma ferramenta de orquestração de containers que permite gerenciar e escalar aplicativos em containers em vários hosts.
 
 
 
