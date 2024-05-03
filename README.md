@@ -34,15 +34,15 @@ Instalação:
 
 Clone o repositório GitHub:
 
-git clone git@github.com:MarcosRepulho/Docker-Swarm.git
+> git clone git@github.com:MarcosRepulho/Docker-Swarm.git
 
-Acesse o diretório do projeto:
+> Acesse o diretório do projeto:
 
-cd Docker-Swarm
+> cd Docker-Swarm
 
-Inicie o Swarm:
+> Inicie o Swarm:
 
-docker swarm init
+> docker swarm init
 
 Adicione os hosts de trabalho ao Swarm:
 
@@ -52,6 +52,9 @@ Adicione os hosts de trabalho ao Swarm:
 # Uso:
 
 > Para iniciar um container, use o comando docker run.
-  Para gerenciar containers, use o comando docker ps.
-  Para escalar um aplicativo, use o comando docker service create.
+
+> Para gerenciar containers, use o comando docker ps.
+
+>  Para escalar um aplicativo, use o comando docker service create.
+
 > Para visualizar logs de containers, use o comando docker logs.
